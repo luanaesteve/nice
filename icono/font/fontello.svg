@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="fort-awesome" unicode="&#xf286;" d="M357 288v125q0 8-9 8h-53q-9 0-9-8v-125q0-9 9-9h53q9 0 9 9z m286 0v125q0 8-9 8h-54q-9 0-9-8v-125q0-9 9-9h54q9 0 9 9z m286-18v-420h-358v179q0 44-31 76t-76 31-76-31-31-76v-179h-357v420q0 9 9 9h54q8 0 8-9v-63h72v348q0 9 9 9h53q9 0 9-9v-62h72v62q0 9 9 9h53q9 0 9-9v-62h72v62q0 4 1 6t5 2 5 2 6 0 6-1v219q-18 8-18 27 0 13 9 22t21 9 22-9 9-22q0-19-18-27v-10q25 6 46 6 12 0 34-5t30-4q10 0 26 4t21 5q9 0 9-9v-117q0-9-20-12t-34-4q-10 0-31 4t-31 4q-22 0-50-6v-75q1 0 5 1t7 0 5-2 5-2 1-6v-62h71v62q0 9 9 9h54q9 0 9-9v-62h71v62q0 9 9 9h54q9 0 9-9v-348h71v63q0 9 9 9h54q9 0 9-9z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
