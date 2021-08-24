@@ -57,6 +57,6 @@ ul.slider li ing{
     object-fit: cover;
 }
 
-ul.slider li: first-child{
+ul.slider li:first-child{
 opacity: 1;
 }
