@@ -15,7 +15,6 @@ header {
     height: 50px;
     background: #333;
     color: #fff;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -45,7 +44,9 @@ background: rgba(0, 0, 0, 0);
 
 h1 {
     float: left;
-
+    font-weight: normal;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 header .contenedor {
