@@ -9,12 +9,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 header {
     width: 100%;
     height: 50px;
     background: #333;
     color: #fff;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -56,3 +56,55 @@ ul.slider li ing{
     height: 300px;
     object-fit: cover;
 }
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid;
+}
+header label:hover {
+cursor: pointer;
+background: rgba(0, 0, 0, 0);
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    font-weight: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+header .contenedor {
+    display: table;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: center;
+}
+.menu li{
+    border-right: 1px solid;
+}
+.menu li:hover {
+background: rgba(0,0,0,0.3);
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
