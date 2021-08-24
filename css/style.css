@@ -56,7 +56,3 @@ ul.slider li ing{
     height: 300px;
     object-fit: cover;
 }
-
-ul.slider li: first-child{
-opacity: 1;
-}
