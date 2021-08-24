@@ -21,3 +21,15 @@ header {
     z-index: 100;
 
 }
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
