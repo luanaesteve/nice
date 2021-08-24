@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?30390811');
-  src: url('../font/fontello.eot?30390811#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?30390811') format('woff2'),
-       url('../font/fontello.woff?30390811') format('woff'),
-       url('../font/fontello.ttf?30390811') format('truetype'),
-       url('../font/fontello.svg?30390811#fontello') format('svg');
+  font-family: 'icon-fort-awesome';
+  src: url('../font/icon-fort-awesome.eot?63456576');
+  src: url('../font/icon-fort-awesome.eot?63456576#iefix') format('embedded-opentype'),
+       url('../font/icon-fort-awesome.woff2?63456576') format('woff2'),
+       url('../font/icon-fort-awesome.woff?63456576') format('woff'),
+       url('../font/icon-fort-awesome.ttf?63456576') format('truetype'),
+       url('../font/icon-fort-awesome.svg?63456576#icon-fort-awesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,13 +14,13 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?30390811#fontello') format('svg');
+    font-family: 'icon-fort-awesome';
+    src: url('../font/icon-fort-awesome.svg?63456576#icon-fort-awesome') format('svg');
   }
 }
 */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "icon-fort-awesome";
   font-style: normal;
   font-weight: normal;
   speak: never;
