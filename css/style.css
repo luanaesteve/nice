@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 header {
@@ -18,12 +20,13 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100;}
 
-}
-
-#menu-bar {
+#btn-menu {
     display: none;
+}
+#btn-menu:checked-.menu{
+    margin: 0;
 }
 
 header label {
@@ -51,21 +54,20 @@ h1 {
 }
 
 header .contenedor {
-    display: table;
-}
-.menu{ 
-    position: absolute;
-    background: #4e4e4e;
-    width: 70%;
-}
+    display: table;}
+
 .menu ul{
     margin: 0;
     list-style: none;
     padding: 0;
-    display: center;
-    flex-direction: column;
+ display: flex;
+ flex-direction: row;
+}
+.menu{
+    background: #4e4e4e;
 }
 .menu li{
+    
     border-right: 1px solid;
 }
 .menu li:hover {
@@ -75,5 +77,22 @@ background: rgba(0,0,0,0.3);
     display: block;
     padding: 15px 20px;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;}
+
+@media (max-width:768px){
+    header label {
+        display: block;
+    }
+    .menu{ 
+        position: absolute;
+        background: #4e4e4e;
+        width: 70%;
+        margin-left: -50%;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
 }
