@@ -52,12 +52,17 @@ h1 {
 header .contenedor {
     display: table;
 }
-
+.menu{ 
+    position: absolute;
+    background: #4e4e4e;
+    width: 70%;
+}
 .menu ul{
     margin: 0;
     list-style: none;
     padding: 0;
     display: center;
+    flex-direction: column;
 }
 .menu li{
     border-right: 1px solid;
@@ -70,4 +75,9 @@ background: rgba(0,0,0,0.3);
     padding: 15px 20px;
     color: #fff;
     text-decoration: none;
+}
+@media (max-width:768px){
+    header label {
+        display: block;
+    }
 }
