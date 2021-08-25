@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap);
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url();
 }
 
 body {
@@ -20,7 +23,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;}
+    z-index: 100;
+}
 
 #btn-menu {
     display: none;
