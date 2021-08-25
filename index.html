@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <script type="text/javascript" src="js/style.js"> </script>
+<link rel="stylesheet" href="css/Slider.css">
 </head>
 <body>
 
@@ -28,13 +29,22 @@
             </nav>
         </div>
     </header>
-    
-    <div class="slider">
-        <ul>
-          
-          <li><img src="Tatuajes 2\imagen_1.jpg"></li>
-          <li><img src="Tatuajes 2\imagen_2.jpg"></li>
-          <li><img src="Tatuajes 2\imagen_3.jpg"></li>
-          <li><img src="Tatuajes 2\imagen_4.jpg"></li>
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="../nice/Tatuajes 2/imagen_1.jpg" alt="" class="slider__img"></div>
+            <div class="slider__section">
+                <img src="../nice/Tatuajes 2/imagen_2.jpg" alt="" class="slider__img"></div>
+            <div class="slider__section">
+                <img src="../nice/Tatuajes 2/imagen_3.jpg" alt="" class="slider__img"></div>
+            <div class="slider__section">
+                <img src="../nice/Tatuajes 2/imagen_4.jpg" alt="" class="slider__img"></div>
+        </div>
+        
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <script src="js/slider.js"></script>
 </body>
 </html>
