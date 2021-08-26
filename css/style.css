@@ -28,18 +28,17 @@ header {
 }
 
 #btn-menu {
-    display: none;
+    display:none;
+    size: initial;
 }
 #btn-menu:checked-.menu{
     margin: 0;
 }
 
 header label {
-    display: block;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    border-right: 1px solid;
+    display:inline;
+    padding: 2px;
+    border-block-start: 1px solid;
 }
 header label:hover {
 cursor: pointer;
@@ -69,7 +68,7 @@ header .contenedor {
  flex-direction: row;
 }
 .menu{
-    background: #4e4e4e;
+    background:rgb(99, 22, 22);
 }
 .menu li{
     
