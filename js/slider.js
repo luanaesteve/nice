@@ -8,9 +8,9 @@ const btnRight = document.querySelector("btn-right");
 slider.insertAdjacenElement('afterbegin', sliderSectionLast);
 
 function Next() {
-    let sliderSectionFirst = documetn.querySelectorAll(".slider__section"[0]);
+    let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
     slider.style.marginLeft = "-200%";
-    slider.style.transition = "all 0.5s",
+    slider.style.transition = "all 0.5s";
     setTimeout(function() {
         slider.style.transition = "none";
         slider.insertAdjacentElement('beforeend', sliderSectionFirst);
@@ -32,8 +32,12 @@ function Prev() {
 
 btnRight.addEventListener('click', function(){
     Next();
-})
+});
 
 btnLeft.addEventListener('click', function(){
-    Prev();
-})
+    Next();
+});
+
+setInterval(function(){
+    Next();
+},5000);
