@@ -19,12 +19,13 @@ function Next() {
 }
 
 function Prev() {
-    let sliderSectionFirst = documetn.querySelectorAll(".slider__section"[0]);
-    slider.style.marginLeft = "-200%";
+    let sliderSection = document.querySelectorAll(".slider__section");
+    let sliderSectionLast = sliderSection[sliderSection.length -1];
+    slider.style.marginLeft = "0";
     slider.style.transition = "all 0.5s",
     setTimeout(function() {
         slider.style.transition = "none";
-        slider.insertAdjacentElement("beforeend", sliderSectionFirst);
+        slider.insertAdjacenElement("afterbegin", sliderSectionLast);
         slider.style.marginLeft = "-100%";
     }, 500);
 }
