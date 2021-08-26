@@ -4,3 +4,5 @@ let sliderSectionLast = sliderSection[sliderSection.length -1];
 
 const btnLeft = document.querySelector("btn-left");
 const btnRight = document.querySelector("btn-right");
+
+slider.insertAdjacenElement("afterbegin", sliderSectionLast);
