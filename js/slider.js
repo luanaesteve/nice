@@ -34,7 +34,7 @@ btnRight.addEventListener('click', function(){
 });
 
 btnLeft.addEventListener('click', function(){
-    Next();
+    Prev();
 });
 
 setInterval(function(){
