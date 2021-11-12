@@ -1,11 +1,4 @@
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 footer{
     bottom: 0;
     left: 0;
@@ -16,6 +9,7 @@ footer{
     font-family: "Open Sans";
     padding-top: 40px;
     color: #fff;
+    margin: auto;
 }
 .footer-content{
     display: flex-end;
