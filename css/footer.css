@@ -76,3 +76,12 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div3 { grid-area: 5 / 1 / 6 / 5; }

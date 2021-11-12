@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
-	*{
+	
+*{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -120,3 +121,14 @@
 		font-size: 18px;
 	}
 	/*Fin de Menù lateral*/
+
+	.parent {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		}
+		
+		.div1 { grid-area: 1 / 1 / 2 / 6; }
+		.div2 { grid-area: 2 / 1 / 4 / 2; }
