@@ -9,7 +9,7 @@ body{
 .container-slider{
   width: 90%;
   max-width: 900px;
-  margin: auto;
+  margin: 0-auto;
   overflow: hidden;
   box-shadow: 0 0 0 10px #fff,
               0 15px 50px;   
@@ -20,6 +20,9 @@ body{
   width: 400%;
   height: 400px;
   margin-left: -100%;
+  position: relative; 
+  z-index: 5; 
+  float: left;
 }
 .slider__section{
   width: 100%;
@@ -55,12 +58,3 @@ body{
 .slider__btn--right{
   right: 10px;
 }
-
-.parent {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-.div4 { grid-area: 2 / 2 / 5 / 6; }

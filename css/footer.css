@@ -7,7 +7,6 @@
 
 }
 footer{
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -19,9 +18,9 @@ footer{
     color: #fff;
 }
 .footer-content{
-    display: flex;
+    display: flex-end;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-end ;
     flex-direction: column;
     text-align: center;
 }
