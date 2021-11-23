@@ -1,4 +1,4 @@
-.container{
+.container-slider{
     margin: auto;
     background-color: rgb(255, 255, 255);
     width: 800px;
@@ -35,11 +35,11 @@
   }
   
   ul.slider li:first-child {
-      opacity: 1; /*Mostramos el primer <li>*/
+      opacity: 1;
   }
   
   ul.slider li:target {
-      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+      opacity: 1;
   }
   
   .menu{
