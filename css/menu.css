@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
-	
-*{
+	*{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background:  url(../fotos/monochrome-dystopian-psychedelic-face-wallpaper-preview.jpg) scroll;
+		background: url(../fotos/164922-arte_psicodelico-morado-arte-magenta-patron-500x.jpg) scroll;
+		background-size: 100%;
 		background-size: cover;
 		background-repeat:repeat;
 	}
@@ -73,15 +73,14 @@
 		display: none;
 	}
 	.container-menu{
-		position: fixed;
+		position: absolute;
 		background: rgba(0,0,0,0.5);
 		width: 100%;
 		height: 100vh;
 		top: 0;left: 0;
 		transition: all 500ms ease;
 		opacity: 0;
-		visibility: hidden; 
-		
+		visibility: hidden;
 	}
 	#btn-menu:checked ~ .container-menu{
 		opacity: 1;
@@ -123,14 +122,3 @@
 		font-size: 18px;
 	}
 	/*Fin de Menù lateral*/
-
-	.parent {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(5, 1fr);
-		grid-column-gap: 0px;
-		grid-row-gap: 0px;
-		}
-		
-		.div1 { grid-area: 1 / 1 / 2 / 6; }
-		.div2 { grid-area: 2 / 1 / 4 / 2; }
