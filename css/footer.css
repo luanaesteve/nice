@@ -16,6 +16,7 @@ footer{
     font-family: "Open Sans";
     padding-top: 40px;
     color: #fff;
+    min-height: auto;
 }
 .footer-content{
     display: flex;
